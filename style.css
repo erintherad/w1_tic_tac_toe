@@ -1,8 +1,35 @@
+@font-face {
+    font-family: aller;
+    src: url(Aller_Rg.ttf);
+}
+
+body {
+	font-family: aller;
+}
+
 #board {
   margin-top: 10px;
 }
 
 .box {
-  border: 1px solid black;
+  border: 4px solid black;
+  border-color: #484848;
   height: 150px;
+  color: transparent; /*Allows game to initally set up with some hidden text that will be replaced by images.*/
+}
+
+.btn {
+	margin-top: 15px;
+}
+
+.CAT {
+	background-image: url("images/cat.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.DOGE {
+	background-image: url("images/doge.png");
+	background-repeat: no-repeat;
+	background-position: center center;
 }
